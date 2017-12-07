@@ -6,8 +6,9 @@ properties([
     pipelineTriggers([
         upstream(
     threshold: 'SUCCESS',
-    upstreamProjects: 'https://github.com/MyFirstOrg-Jenkins/OrgProjRep2.git/'
-         ) ])])
+    upstreamProjects: 'https://github.com/MyFirstOrg-Jenkins/OrgProjRep1.git/'
+    ) ])])
+
 pipeline {
     agent any 
 
@@ -31,4 +32,3 @@ pipeline {
         }
     }
 }
-////
