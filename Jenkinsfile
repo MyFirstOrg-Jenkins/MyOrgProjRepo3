@@ -8,7 +8,7 @@ properties([
     threshold: 'SUCCESS',
     upstreamProjects: 'https://github.com/MyFirstOrg-Jenkins/OrgProjRep2.git/'
          ) ])])
-node {
+pipeline {
     agent any 
 
     stages {
