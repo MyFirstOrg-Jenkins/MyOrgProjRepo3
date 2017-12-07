@@ -8,7 +8,7 @@ properties([
     upstreamProjects: 'https://github.com/MyFirstOrg-Jenkins/MyOrgRepo2.git'
     )()])
 
-pipeline {
+node {
     agent any 
 
     stages {
