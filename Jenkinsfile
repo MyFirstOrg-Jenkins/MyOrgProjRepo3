@@ -5,7 +5,7 @@ properties([
     projectUrlStr: 'https://github.com/MyFirstOrg-Jenkins/MyOrgProjRepo3.git/'],
     pipelineTriggers(upstream(
     threshold: 'SUCCESS',
-    upstreamProjects: 'https://github.com/MyFirstOrg-Jenkins/OrgProjRepo2.git'
+    upstreamProjects: 'https://github.com/MyFirstOrg-Jenkins/OrgProjRep2.git'
     )
     )])
 
