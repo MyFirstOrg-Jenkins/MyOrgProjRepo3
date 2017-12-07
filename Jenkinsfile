@@ -6,7 +6,7 @@ properties([
     pipelineTriggers([upstream(
     threshold: 'SUCCESS',
     upstreamProjects: 'https://github.com/MyFirstOrg-Jenkins/MyOrgRepo2.git'
-    )()])
+    )])
 
 node {
     agent any 
